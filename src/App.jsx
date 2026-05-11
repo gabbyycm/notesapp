@@ -111,13 +111,12 @@ export default function App() {
                 variation="quiet" 
                 required 
               /> 
-              <View 
-                name="image" 
-                as="input" 
-                type="file" 
-                alignSelf={"end"} 
-                accept="image/png, image/jpeg" 
-              /> 
+              <input
+  name="image"
+  type="file"
+  accept="image/png, image/jpeg"
+  required
+/>
               <Button type="submit" variation="primary"> 
                 Create Note 
               </Button> 
